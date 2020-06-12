@@ -7,6 +7,7 @@ from django.contrib import messages
 from django.contrib.auth.forms import UserCreationForm
 # Create your views here.
 
+# TODO: Все переробити! Щоб я більше не бачив FBV (function based views)!!! CBV - Class Based Views!!!!
 def home(request):
     return render(request, 'accounts/navbar.html')
 
